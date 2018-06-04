@@ -13,6 +13,14 @@ Registering a new **RAW UDP** input in our Graylog server:
 * Fill the form with best parameters for your config. 
 * Click "Save".
 
+## (Optional, but recomended) Import Graylog Extractors
+
+* Once you have created the graylog input, go to "System > Inputs.
+* Click in "Manage Extractors" at your graylog input.
+* Click "Actions", then "Import Extractors". 
+* Import the file "extractors.json" 
+* Now all your events will be parsed and AWS Flow log fields will be created.
+
 ## Configure AWS Flow logs
 
 * Login into your AWS cccount.
