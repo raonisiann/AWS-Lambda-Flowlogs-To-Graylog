@@ -1,0 +1,215 @@
+{
+  "extractors": [
+    {
+      "title": "aws_flowlog_version",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_flowlog_version",
+      "extractor_config": {
+        "index": 1,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_account_id",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_account_id",
+      "extractor_config": {
+        "index": 2,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_interface_id",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_interface_id",
+      "extractor_config": {
+        "index": 3,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_source_addr",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_source_addr",
+      "extractor_config": {
+        "index": 4,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_destination_addr",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_destination_addr",
+      "extractor_config": {
+        "index": 5,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_source_port",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_source_port",
+      "extractor_config": {
+        "index": 6,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_destination_port",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_destination_port",
+      "extractor_config": {
+        "index": 7,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_protocol_number",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_protocol_number",
+      "extractor_config": {
+        "index": 8,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_packtes",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_packtes",
+      "extractor_config": {
+        "index": 9,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_bytes",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_bytes",
+      "extractor_config": {
+        "index": 10,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_start_time",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_start_time",
+      "extractor_config": {
+        "index": 11,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_end_time",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_end_time",
+      "extractor_config": {
+        "index": 12,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_action",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_action",
+      "extractor_config": {
+        "index": 13,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    },
+    {
+      "title": "aws_log_status",
+      "extractor_type": "split_and_index",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "aws_log_status",
+      "extractor_config": {
+        "index": 14,
+        "split_by": " "
+      },
+      "condition_type": "none",
+      "condition_value": ""
+    }
+  ],
+  "version": "2.4.4"
+}
