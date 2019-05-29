@@ -21,7 +21,3 @@ def lambda_handler(event, context):
     for event in allEvents['logEvents']:
     # Send to graylog via UDP    
         sock.sendto(str(event['message']), (UDP_IP, UDP_PORT))
-
-
-
-exit 
